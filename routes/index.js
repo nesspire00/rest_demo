@@ -10,17 +10,20 @@ router.get('/', (req, res, next) => {
 router.get('/weather', (req, res) => {
   const weatherdata = [
     {
-      city: 'Barrie, ON',
+      city: 'Barrie',
+      province: 'ON',
       temperature: 20,
       weather_condition: 'Sunny',
     },
     {
-      city: 'Toronto, ON',
+      city: 'Toronto',
+      province: 'ON',
       temperature: 25,
       weather_condition: 'Flurries',
     },
     {
-      city: 'Orillia, ON',
+      city: 'Orillia',
+      province: 'ON',
       temperature: 18,
       weather_condition: 'Overcast',
     },
